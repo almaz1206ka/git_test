@@ -28,3 +28,10 @@ sample({
     fn: (counter) => counter += 1,
     target: counter
 })
+
+sample({
+    clock: event,
+    source: counter,
+    fn: (counter) => counter += 2,
+    target: counter
+})
