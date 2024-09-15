@@ -8,5 +8,6 @@ export const Layout = () => {
     useGate(PageGate, {count})
     return <>
     <button onClick={() => event()}></button>
+    <div>432</div>
     <div>123</div></>
 }
